@@ -1,0 +1,133 @@
+:root {
+    --white_color: var(--main-white);
+    --orange_color: var(--main-gold);
+    --orange_dark_color: rgb(136, 73, 0);
+    --black_color: var(--main-black);
+    --font_color : rgb(255, 230, 199);
+}
+
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.cards_box {
+    padding: 3.5rem 5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.cards {
+    max-width: 1120px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card_details {
+    width: 300px;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+
+.card_img_box {
+    position: relative;
+    background-color: var(--orange_color);
+    padding-top: .75rem;
+    margin-bottom: -.75rem;
+}
+
+.card_data {
+    background: var(--black_color);
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.card_img {
+    width: 300px;
+    border-radius: 1rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.card_name {
+    font-size: 1rem;
+    color: var(--font_color);
+    margin-bottom: .75rem;
+}
+
+.card_description {
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+    color: var(--white_color);
+}
+
+.card_button {
+    display: inline-block;
+    background-color: var(--orange_color);
+    padding: .75rem 1.5rem;
+    border-radius: .25rem;
+    color: var(--white_color);
+    font-weight: 600;
+}
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    content: "";
+}
+
+.swiper-button-prev, .swiper-button-next {
+    width: initial;
+    height: initial;
+    font-size: 3rem;
+    color: var(--orange_color);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    color: var(--orange_dark_color);
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color:var(--orange_color);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active,
+.card_button:hover {
+    background-color: var(--orange_dark_color);
+}
+
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 5px;
+    }
+}
+
+
+
+

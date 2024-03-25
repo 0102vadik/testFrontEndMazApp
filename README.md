@@ -1,1 +1,1 @@
-# testFrontEndMazApp
+# Тестовое задание на Front-end МАЗ
