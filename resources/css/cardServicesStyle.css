@@ -1,0 +1,187 @@
+
+.card-services-container {
+    padding: 20px 20px 60px 20px;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.cards-services {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
+}
+
+.card-services-img {
+    padding: 20px;
+    width: 110px;
+    height: 110px;
+}
+
+.card-services-img-other {
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.card-services-title {
+    flex: 2;
+    text-align: center;
+    color: var(--main-white);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.other-button a {
+    color: var(--main-white);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.cards-services .service-card {
+    border-left: 15px solid var(--main-gold);
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: var(--main-black);
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-services1 {
+    flex: 1;
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.card-services1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.card-services2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.card-services3 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.card-services4 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.card-services5 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.card-services6 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+@media screen and (max-width: 1300px) {
+    .card-services-container {
+        padding: 20px;
+        width: 860px;
+        margin: 0 auto;
+    }
+
+    .cards-service {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .card-services1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-services2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .card-services3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-services4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .card-services5 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .card-services6 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .card-services-container {
+        padding: 20px;
+        width: 440px;
+        margin: 0 auto;
+    }
+
+    .card-services1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-services2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-services3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .card-services4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .card-services5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .card-services6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    .cards-services {
+        display: grid;
+        grid-template-columns: 280px;
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+
+    .card-services-container {
+        padding: 10px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .cards-services .service-card {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card-services-title {
+        font-size: 20px;
+    }
+
+}

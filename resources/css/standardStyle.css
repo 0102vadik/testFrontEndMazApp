@@ -1,0 +1,25 @@
+:root {
+    --main-gray: #D9D9D6;
+    --main-black: #1B232A;
+    --main-red: #D22630;
+    --main-gold: #ccab6e;
+    --main-white: white;
+}
+
+.title-section {
+    width: 200px;
+    padding: 10px 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: 10px solid var(--main-gold);
+}
+
+.black-container {
+    background-color: var(--main-black);
+    color: var(--main-white);
+}
+
+.white-container {
+    color: black;
+}
