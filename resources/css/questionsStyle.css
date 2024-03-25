@@ -29,7 +29,6 @@
 }
 
 .active, .accordion:hover {
-    background-color: #ccc;
 }
 
 .panel {
@@ -44,18 +43,6 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     font-size: 18px;
-}
-
-.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: black;
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 @media screen and (max-width: 1300px) {

@@ -1,7 +1,3 @@
-// slider developer : @SerGioPlay
-// developer website: https://sergioplay01.github.io/portfolio_sergio_play/
-// slider version : 1.1
-
 var sliderContainers = document.getElementsByClassName("slider-container");
 
 for (var i = 0; i < sliderContainers.length; i++) {
