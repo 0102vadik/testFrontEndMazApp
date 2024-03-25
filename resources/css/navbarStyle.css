@@ -24,13 +24,13 @@ header{
     justify-content: space-between;
     background-image: linear-gradient(79deg,rgb(238, 238, 238),rgb(255, 255, 255));
     z-index: 999;
-    box-shadow: 0 0 10px rgba(35, 117, 224, 0.5);
+    box-shadow: 0 0 10px var(--main-gold);
 }
 
 header .logo{
     font-weight: bolder;
     font-size: 25px;
-    color: rgb(15, 116, 199);
+    color: var(--main-gold);
 }
 
 .companyBar{
@@ -88,13 +88,13 @@ header .navbar ul li a{
 
 header .navbar ul li a:hover{
     transition: 0.4s;
-    color: rgba(44, 129, 204, 0.984);
+    color: var(--main-gold);
   }
 
   header .navbar ul li a:after{
     content: "";
     position: absolute;
-    background-color: rgba(3, 134, 234, 0.459);
+    background-color: var(--main-gold);
     height: 4px;
     width: 0%;
     border-radius: 10px;
@@ -147,7 +147,7 @@ header .navbar ul li ul li ul{
 header .navbar ul li ul li{
     width: 100%;
    
-    padding: 10px auto;
+    padding: 10px;
    
 }
 
@@ -186,13 +186,12 @@ header label{
   
 header{
     padding: 20px;
-   
 }
 
 header label{
     display: initial;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
 }
 
 header .navbar{
